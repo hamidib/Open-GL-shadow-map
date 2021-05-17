@@ -18,7 +18,7 @@ http://fabiensanglard.net/shadowmapping/index.php).  This tutorial was heavily r
 3. Copy vertex/pixel attributes to the buffer with glBufferData. 
 	- glFramebufferTexture2DEXT
 Overall I found the use of the windows extension to be excessive.  While this method did produce results, I was not happy with this tutorial as I did not want to use this method to create a FBO as it required a lot of setup to create the FBO which is very unnecessary from other FBO examples that I have seen.  
-My next goal was to try and remove the windows.h dependency.  I noted to properly use FBOs it would require a newer version of openGL.  However, I wanted to keep 2.1 for my work environment since I am used to that and I was concerned about other projects I am working on using 2.1, so I decided to try using 2.1’s pixel buffer object.  From here I found some helpful information at http://songho.ca/opengl/gl_vbo.html#create which explained vertex buffers which pixel buffers are derived from.  Unfortunately, I had many issues in my attempt that I could not resolve in time. 
+My next goal was to try and remove the windows.h dependency.  I noted to properly use FBOs it would require a newer version of openGL.  However, I wanted to keep 2.1 for my work environment since I am used to that and I was concerned about other projects I am working on using 2.1, so I decided to try using 2.1’s pixel buffer object.  From here I found some helpful information at http://songho.ca/opengl/gl_vbo.html#create which explained vertex buffers which pixel buffers are derived from.  
 
 
 
